@@ -1,0 +1,14 @@
+void push_back(const T& obj);
+	ok - void push_front(const T& obj);
+	ok - void pop_back();
+	ok - void pop_front();
+	ok - void insert(size_t pos, const T& obj);
+	ok - void erase(size_t pos); // removeAt
+	ok - size_t size() const;
+	ok - const T& getElement(size_t pos)const;
+	//
+	ok- list_(const list_<T>& right);
+	ok - list_(list_<T>&& right);
+	ok - list_<T>& operator=(const list_<T>& right);
+	ok - list_<T>& operator=(list_<T>&& right);
+	ok - ~list_();
